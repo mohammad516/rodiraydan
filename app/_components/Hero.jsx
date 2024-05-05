@@ -4,10 +4,10 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="hero_area">
+    <div className="tw-grid " >
       {/* slider section */}
-      <section className="slider_section ">
-        <div className="slider_bg_box">
+      <section className="slider_section  ">
+        <div className="slider_bg_box tw-bg-slate-300">
           <Image
             width={1903}
             height={930}
@@ -18,7 +18,7 @@ function Hero() {
         </div>
         <div
           id="customCarousel1"
-          className="carousel slide"
+          className="carousel slide "
           data-ride="carousel"
         >
           <div className="carousel-inner">

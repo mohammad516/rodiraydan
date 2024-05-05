@@ -337,7 +337,9 @@ Link:focus {
 
 .slider_section #customCarousel1 {
   width: 100%;
-  position: center;
+  margin-left: 80px;
+  
+
 }
 
 .slider_section .detail-box h1 {
