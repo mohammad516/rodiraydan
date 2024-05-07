@@ -24,10 +24,7 @@ function ProductList({ productList }) {
                 <div className="box">
                   <div className="option_container">
                     <div className="options">
-                    <Link href={`/product-details/${item.id}`} className="option2">
-                        Add To Cart
-                      </Link>
-                      <Link href={`/product-details/${item.id}`} className="option2">
+                      <Link href={`/product-details/${item.id}`} className="option1">
                         Buy Now
                       </Link>
                     </div>

@@ -1,9 +1,9 @@
 'use client'
 import React, { useEffect,useState } from 'react';
-import BreadCrumbs from '@/app/_components/BreadCrumbs'
+import BreadCrumbs from "../../_components/BreadCrumbs";
 import ProductBanner from './_components/ProductBanner'
 import ProductInfo from './_components/ProductInfo'
-import ProductApis from '@/app/_utils/ProductApis'
+import ProductApis from '../../_utils/ProductApis'
 import { usePathname } from 'next/navigation';
 
 function ProductDetails ({params}) {

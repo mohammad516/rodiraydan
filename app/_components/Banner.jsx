@@ -9,8 +9,8 @@ function Banner() {
         <div className="row g-4 align-items-center">
           <div className="col-lg-6">
             <div className="py-4">
-              <h1 className="tw-text-white tw-text-6xl sm:tw-text-7xl">Hair Conditioner</h1>
-              <p className="fw-normal display-3 text-dark mb-4">in Our Store</p>
+              <h1 className="tw-text-white tw-text-5xl sm:tw-text-7xl">Кондиционер для волос</h1>
+              <p className="fw-normal display-3 text-dark mb-4 ">в нашем магазине</p>
               <p className="mb-4 text-dark">
                 The generated Lorem Ipsum is therefore always free from
                 repetition injected humour, or non-characteristic words etc.
@@ -29,7 +29,6 @@ function Banner() {
                 width={900}
                 height={600}
                 src="/images/r4.png"
-                className="img-fluid w-100 rounded"
                 alt=""
               />
               <div
@@ -44,7 +43,6 @@ function Banner() {
                 className="img-fluid w-100 rounded"
                 alt=""
               />
-                  {/* <span className="h2 mb-0">NEW</span> */}
                 </div>
               </div>
             </div>

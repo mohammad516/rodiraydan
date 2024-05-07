@@ -1,5 +1,6 @@
-import { CartContext } from '@/app/_context/CartContext';
-import CartApis from '@/app/_utils/CartApis'
+
+import { CartContext } from '../../../_context/CartContext'
+import CartApis from '../../../_utils/CartApis'
 import { ShoppingCart } from 'lucide-react'
 import {useContext} from 'react'
 
