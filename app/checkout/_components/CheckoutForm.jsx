@@ -43,7 +43,7 @@ const CheckoutForm = ({amount}) => {
         clientSecret,
         elements,
         confirmParams: {
-          return_url: "https://rodiraydan-admin.onrender.com/payment-confirm",
+          return_url: "https://rodiraydan.vercel.app/payment-confirm",
         },
       });
   
