@@ -36,7 +36,7 @@ function ProductInfo({product}) {
         <h2 className='tw-text-[20px]'>{product?.attributes?.title}</h2>
         <h2 className='tw-text-[15px] tw-text-gray-400'>{product?.attributes?.category}</h2>
         <h2 className='tw-text-[15px] tw-mt-5' >{product?.attributes?.description[0]?.children[0].text}</h2>
-        <h2 className='tw-text-[32px] tw-text-cyan-600 tw-mt-3'>₽ {product?.attributes?.price}</h2>
+        <h2 className='tw-text-[32px] tw-text-cyan-600 tw-mt-3'>$ {product?.attributes?.price}</h2>
         <button onClick={() => handleAddToCart()} className='tw-flex tw-gap-2 tw-bg-cyan-600 hover:tw-bg-gray-600 tw-p-3 tw-rounded-lg tw-text-white'><ShoppingCart />Add To Cart</button>
     </div>
   )

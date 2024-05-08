@@ -3,13 +3,13 @@ import React from "react";
 function ContactInfo() {
   return (
     <>
-      <section className="tw-bg-gray-100 tw-mb-20">
+      <section className="tw-bg-gray-200 tw-mb-40">
         <div className="tw-max-w-7xl tw-mx-auto tw-py-16 tw-px-4 sm:tw-px-6 lg:tw-py-20 lg:tw-px-8">
           <div className="tw-max-w-2xl lg:tw-max-w-4xl tw-mx-auto tw-text-center">
             <h2 className="tw-text-3xl tw-font-extrabold tw-text-gray-900">
               Посетите наше местоположение
             </h2>
-            <p className="tw-mt-4 tw-text-lg tw-text-gray-500">
+            <p className="tw-mt-4 tw-text-lg tw-text-gray-00">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
           </div>
