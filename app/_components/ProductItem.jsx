@@ -14,7 +14,7 @@ function ProductItem({ product }) {
       </div>
       <div className="details">
         <h5 className="title ">{product?.attributes?.title}</h5>
-        <h6 className="price">{product?.attributes?.price} ₽</h6>
+        <h6 className="price">{product?.attributes?.price} $</h6>
         <h6 className="category">{product?.attributes?.category}</h6>
       </div>
 
