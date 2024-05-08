@@ -43,7 +43,7 @@ const CheckoutForm = ({amount}) => {
         clientSecret,
         elements,
         confirmParams: {
-          return_url: "http://localhost:3000/payment-confirm",
+          return_url: "https://rodiraydan-admin.onrender.com/payment-confirm",
         },
       });
   
