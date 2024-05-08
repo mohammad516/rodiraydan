@@ -10,10 +10,8 @@ function PaymentConfirm() {
 				width={230}
 				height={130}
 			/>
-			<h2 className='tw-text-[24px]'>Payment Successful !</h2>
-			<h2 className='tw-text-[17px] tw-text-center tw-mt-6 tw-text-gray-500'>We sent an email with your
-				order confirmation
-				along with Digital Content</h2>
+			<h2 className='tw-text-[24px]'>Оплата успешно прошла !</h2>
+			<h2 className='tw-text-[17px] tw-text-center tw-mt-6 tw-text-gray-500'>Мы получили ваш заказ. Обращайтесь к нам, если у вас возникнут вопросы или проблемы.</h2>
 			<Link
 				href="/"
 				className='tw-p-2 tw-mt-6 tw-text-white tw-rounded-md  tw-bg-cyan-700 hover:tw-text-white tw-mb-8'>

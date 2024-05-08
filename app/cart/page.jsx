@@ -28,7 +28,7 @@ function Cart() {
 			<div className="tw-max-w-screen-xl tw-px-4 tw-py-8 tw-mx-auto sm:tw-px-6 sm:tw-py-12 lg:tw-px-8">
 				<div className="tw-max-w-3xl tw-mx-auto">
 					<header className="tw-text-center">
-						<h1 className="tw-text-xl tw-font-bold tw-text-gray-900 sm:tw-text-3xl">Your Cart</h1>
+						<h1 className="tw-text-xl tw-font-bold tw-text-white tw- tw-bg-cyan-600 tw-p-5 sm:tw-text-3xl">Your Cart</h1>
 					</header>
 
 					<div className="tw-mt-8">
@@ -54,7 +54,7 @@ function Cart() {
 									</div>
 
 									<div className="tw-flex tw-items-center tw-justify-end tw-flex-1 tw-gap-2">
-									₽{item?.product?.attributes?.price}
+									${item?.product?.attributes?.price}
 
 										<button onClick={() => deleteCartItemFromList(item?.id)} className="tw-text-gray-600 tw-transition hover:tw-text-red-600">
 											<span className="tw-sr-only">Remove item</span>
@@ -89,7 +89,7 @@ function Cart() {
 
 									<div className="tw-flex tw-justify-between tw-!text-base tw-font-medium">
 										<dt>Total</dt>
-										<dd>₽{getTotalAmount()}</dd>
+										<dd>${getTotalAmount()}</dd>
 									</div>
 								</dl>
 
@@ -105,7 +105,7 @@ function Cart() {
 								</div>
 							</div>
 						</div>
-						<h2 className='tw-text-gray-400 tw-text-[12px]'>Note: All Items will be sent via Email</h2>
+						{/* <h2 className='tw-text-gray-400 tw-text-[12px]'>Note: All Items will be sent via Email</h2> */}
 					</div>
 				</div>
 			</div>

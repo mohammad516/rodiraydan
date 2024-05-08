@@ -3,27 +3,13 @@ import React from 'react'
 function Subscribe() {
   return (
     <section className="subscribe_section">
-    <div className="container-fuild">
-      <div className="box">
-        <div className="row">
-          <div className="col-md-6 offset-md-3">
-            <div className="subscribe_form ">
-              <div className="heading_container heading_center">
-                <h3>Subscribe To Get Discount Offers</h3>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor
-              </p>
-              <form action="">
-                <input type="email" placeholder="Enter your email" />
-                <button>subscribe</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div className="tw-flex  tw-items-center tw-justify-center tw-bg-gradient-to-tr tw-bg-gray-100 tw-from-gray-600 tw-p-20">
+  <div className="tw-w-max">
+    <h1 className="tw-animate-typing tw-overflow-hidden tw-whitespace-nowrap tw-border-r-4 tw-border-r-white tw-pr-5 tw-text-5xl tw-text-white tw-font-bold">
+    Приятных покупок!
+    </h1>
+  </div>
+</div>
   </section>
   )
 }
